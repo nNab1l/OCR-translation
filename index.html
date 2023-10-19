@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script type="module" src="/js/main.js" defer></script>
+    <script src='https://cdn.jsdelivr.net/npm/tesseract.js@4/dist/tesseract.min.js'></script>
+    <!-- <script src="https://unpkg.com/tesseract.js@v2.0.0-alpha.13/dist/tesseract.min.js"></script>  -->
+    <title>Document</title>
+</head>
+<body>
+     <section class="translate">
+        <div class="translate__language">
+            <div class="translate__select" id="translateFrom">
+              <div class="select__option" data-value="en">English</div>
+              <div class="select__option" data-value="ja">Japanese</div>
+              <div class="select__option" data-value="ko">Korean</div>
+            </div>
+            <div class="translate__select" id="translateTo">
+              <div class="select__option" data-value="ja">Japanese</div>
+              <div class="select__option" data-value="en">English</div>
+              <div class="select__option" data-value="ko">Korean</div>
+            </div>
+          </div>
+        <article class="translate__input">
+            <figure>
+                <img class="prew" src="" alt="">
+                <canvas class="overlay"></canvas>
+
+                <div class="switch" id="switch">
+                    <i class="fa-solid fa-repeat"></i>
+                </div>
+                <button class="translate__file" id="loadFileXml" value="loadXml" onclick="document.getElementById('file').click();">
+                    <i class="fa-solid fa-upload"></i>                        
+                </button>
+                
+                
+                <p class="translate__x">x</p>
+                <input class="file" type="file" style="display:none;" id="file" name="file"/>
+            </figure>
+            <textarea class="translate__text--from"  id="result" spellcheck="false" readonly placeholder="converted text"></textarea>
+
+        </article>
+        
+        <button class="translate__btn" id="ocrButton">Translate</button>
+    </section>
+    
+</body>
+</html>
