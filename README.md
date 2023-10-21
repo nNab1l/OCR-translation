@@ -81,7 +81,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](2m.png)
+[![Product Name Screen Shot](2m.png)](mockup)
 
 I wanted to create a diverse and multifunctional OCR translation service that could be used
 for all sorts of things. The goal is to make it as full-packaged as possible with capabilities
