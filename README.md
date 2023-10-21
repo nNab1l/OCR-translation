@@ -60,7 +60,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot](2m.png)](mockup)
+[![Product Name Screen Shot](./img/2m.png)](mockup)
 
 I wanted to create a diverse and multifunctional OCR translation service that could be used
 for all sorts of things. The goal is to make it as full-packaged as possible with capabilities
@@ -86,7 +86,7 @@ translations with a dictionary.
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-[![Product Name Screen Shot](demo.png)](demo)
+[![Product Name Screen Shot](./img/demo.png)](demo)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
