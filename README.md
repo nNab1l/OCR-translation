@@ -34,7 +34,6 @@
 <h3 align="center">OCR translation app</h3>
 
   <p align="center">
-    project_description
     <br />
     <br />
     <br />
@@ -129,9 +128,8 @@ Project Link: [https://github.com/nNab1l/OCR-translation](https://github.com/nNa
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* [https://tesseract-ocr.github.io/](tesseract site)
-* []()
-* []()
+* [https://tesseract-ocr.github.io/]
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
