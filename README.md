@@ -94,10 +94,10 @@ translations with a dictionary.
 
 ### Built With
 
-* [![HTML][Next.js]][Next-url]
-* [![SCSS][React.js]][React-url]
-* [![Javascript][Vue.js]][Vue-url]
-* [![Tesseract][Angular.io]][Angular-url]
+* [![HTML][HTML]]
+* [![SCSS][SCSS]]
+* [![Javascript][Javascript]]
+* [![Tesseract][Tesseract]]
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
