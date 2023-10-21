@@ -115,7 +115,7 @@ document.addEventListener('DOMContentLoaded', () => {
         console.log('Image is already binarized.');
       }
 
-      const { data } = await Tesseract.recognize(imgData, 'eng+jpn+kor+ara');
+      const { data } = await Tesseract.recognize(imgData, 'jpn');
       toText.textContent = data.text;
 
       let textToTranslate = data.text;
